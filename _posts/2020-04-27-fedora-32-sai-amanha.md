@@ -1,6 +1,6 @@
 ---
 title: Amanhã é o lançamento do Fedora 32
-tags: Linux, Fedora, Release
+tags: Linux Fedora Release
 ---
 
 Amanhã esperamos o lançamento do [Fedora 32]([Releases/32/ChangeSet - Fedora Project Wiki](https://fedoraproject.org/wiki/Releases/32/ChangeSet?rd=Releases/32)). Esta é a minha vigésima nona release como um fedoran, já que estou aqui desde o Fedora Core 3.
