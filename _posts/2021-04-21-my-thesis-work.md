@@ -1,5 +1,5 @@
 ---
-title: My thesis work was submitte to the JACS
+title: My thesis work was submitted to the JACS
 tags: chemistry thesis Ph.D.
 ---
 
