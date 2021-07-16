@@ -3,6 +3,9 @@ title: Peter Bergmann - The man who ceased to exist
 tags: bio life personal
 ---
 
+I do not know if I am late to the party but just recently, I leaned
+about a man called **Peter Bergmann** who died in Ireland, 2009.
+
 The most impressive thing about Mr. Bergmann is that this, probably, is
 not even his name. The man was found dead at Rosses Point beach as if his body,
 wearing shorts and a T-shirt, was washed back to the sand by the sea. The rest
