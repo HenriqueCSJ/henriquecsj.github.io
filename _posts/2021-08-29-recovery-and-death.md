@@ -2,6 +2,8 @@
 title: About recovery and death
 tags: sickness covid
 category: English Diary
+sharing: true
+show_author_profile: true
 ---
 
 As I recover my aunt is there, hanging between life and death, also due to COVID. It is sometimes hard to concentrate because I’m thinking of her. She is the sweetest woman and surely deserved a better end than to die alone, unconscious in a hospital bed and full of tubes. At this very moment she is in the deepest coma possible and unresponsive to any kind of stimulus. All I can do is hope for the best as her body wants to die but medical science keeps it alive.
