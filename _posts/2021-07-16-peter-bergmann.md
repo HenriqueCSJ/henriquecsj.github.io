@@ -1,6 +1,7 @@
 ---
 title: Peter Bergmann - The man who ceased to exist
 tags: bio life personal
+category: English Diary
 ---
 
 I do not know if I am late to the party but just recently, I leaned

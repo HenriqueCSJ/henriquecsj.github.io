@@ -1,5 +1,5 @@
 ---
-title: Sick as a dog
+title: Starting to recover and ready to get back to work
 tags: thesis work sickness covid
 category: English Diary
 ---

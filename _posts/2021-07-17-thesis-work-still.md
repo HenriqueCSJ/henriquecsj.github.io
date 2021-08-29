@@ -1,6 +1,7 @@
 ---
 title: Writing is fun... but hard
-tags: thesis work 
+tags: thesis work
+category: English Diary
 ---
 
 My thesis work is reaching 300 pages and the funny thing is that I
