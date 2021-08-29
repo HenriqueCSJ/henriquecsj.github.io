@@ -1,6 +1,6 @@
 ---
 title: About recovery and death
-tags: thesis work sickness covid
+tags: sickness covid
 category: English Diary
 ---
 
