@@ -16,8 +16,6 @@ In the *absence* of spin–orbit coupling (SOC), the available states have well-
 
 $$|\psi\rangle = |\chi_{\text{spin}}\phi_{\text{orbital}}\rangle \cong |\chi_{\text{spin}}\rangle \otimes |\phi_{\text{orbital}}\rangle. \tag{1}$$
 
-Each spin part $ \left | \chi_{spin} \right > $ has a well-defined value of $S$, and each orbital part $ \left | \phi_{orbital} \right > $ has a well-defined value of $L$. So the total state $ \left | \psi \right > $ has well-defined values of both $S$ and $L$.
-
 When a system is placed under some kind of perturbation $H'$, the transition probability per unit time (i.e. how likely the system is to go from state $i$ to state $j$) is proportional to
 
 $$| \langle i | H' | j \rangle |^2  \tag{2}$$
