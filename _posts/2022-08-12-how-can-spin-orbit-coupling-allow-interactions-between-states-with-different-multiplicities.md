@@ -53,4 +53,4 @@ This mixing is caused by SOC, and hence SOC is precisely the mechanism which all
 
 (Many quantum mechanics textbooks cover angular momentum, and angular momentum coupling, in great detail. Normally these are presented using $j_1$ and $j_2$ as the "sources of angular momentum", but in fact SOC is precisely the same thing, just that we use $s$ and $l$ as the labels instead. So if you want a more in-depth treatment of this, you can look in any reputable textbook.)
 
-Each spin part $\|\chi_{spin}\> $ has a well-defined value of $S$, and each orbital part $\left | \phi_{orbital} \right >$ has a well-defined value of $L$. So the total state $\left | \psi \right >$ has well-defined values of both $S$ and $L$.
+Each spin part $\|\chi_{spin}\> $ has a well-defined value of $S$, and each orbital part $\left \| \phi_{orbital} \right \>$ has a well-defined value of $L$. So the total state $\left \| \psi \right \>$ has well-defined values of both $S$ and $L$.
