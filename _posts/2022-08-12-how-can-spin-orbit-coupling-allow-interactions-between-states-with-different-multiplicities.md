@@ -6,7 +6,11 @@ categories: [Theory]
 tags: [notekeeping, quantum mechanics, soc]
 render_with_liquid: true
 toc: true
+math: true
 ---
+
+> This whole text was riginally posted [here](https://chemistry.stackexchange.com/questions/159555/how-can-spin-orbit-coupling-allow-interactions-between-states-with-different-mul).
+{: .prompt-info }
 
 Here's a longer sketch of what Paul's comment is describing.
 
