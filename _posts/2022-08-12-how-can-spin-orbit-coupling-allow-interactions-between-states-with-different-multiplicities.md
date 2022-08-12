@@ -12,8 +12,6 @@ math: true
 > This whole text was riginally posted [here](https://chemistry.stackexchange.com/questions/159555/how-can-spin-orbit-coupling-allow-interactions-between-states-with-different-mul).
 {: .prompt-info }
 
-Here's a longer sketch of what Paul's comment is describing.
-
 In the *absence* of spin–orbit coupling (SOC), the available states have well-defined spin and orbital angular momentum components which can be separated. We could, for example, write the total wavefunction as a product of spin and orbital components:
 
 $$|\psi\rangle = |\chi_{\text{spin}}\phi_{\text{orbital}}\rangle \cong |\chi_{\text{spin}}\rangle \otimes |\phi_{\text{orbital}}\rangle. \tag{1}$$
