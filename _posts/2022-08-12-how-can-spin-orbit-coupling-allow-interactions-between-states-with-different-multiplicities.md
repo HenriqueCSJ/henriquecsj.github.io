@@ -16,6 +16,8 @@ In the *absence* of spin–orbit coupling (SOC), the available states have well-
 
 $$|\psi\rangle = |\chi_{\text{spin}}\phi_{\text{orbital}}\rangle \cong |\chi_{\text{spin}}\rangle \otimes |\phi_{\text{orbital}}\rangle. \tag{1}$$
 
+Each spin part $\|\chi_{spin}\> $ has a well-defined value of $S$, and each orbital part $\left \| \phi_{orbital} \right \>$ has a well-defined value of $L$. So the total state $\left \| \psi \right \>$ has well-defined values of both $S$ and $L$.
+
 When a system is placed under some kind of perturbation $H'$, the transition probability per unit time (i.e. how likely the system is to go from state $i$ to state $j$) is proportional to
 
 $$| \langle i | H' | j \rangle |^2  \tag{2}$$
@@ -52,5 +54,3 @@ This mixing is caused by SOC, and hence SOC is precisely the mechanism which all
 -----
 
 (Many quantum mechanics textbooks cover angular momentum, and angular momentum coupling, in great detail. Normally these are presented using $j_1$ and $j_2$ as the "sources of angular momentum", but in fact SOC is precisely the same thing, just that we use $s$ and $l$ as the labels instead. So if you want a more in-depth treatment of this, you can look in any reputable textbook.)
-
-Each spin part $\|\chi_{spin}\> $ has a well-defined value of $S$, and each orbital part $\left \| \phi_{orbital} \right \>$ has a well-defined value of $L$. So the total state $\left \| \psi \right \>$ has well-defined values of both $S$ and $L$.
