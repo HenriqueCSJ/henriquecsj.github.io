@@ -83,7 +83,7 @@ theme_mode: dark   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://upload.wikimedia.org/wikipedia/commons/b/b1/U%2B210F.svg
+avatar: https://henriquecastro.info/wp-content/uploads/2022/04/text3031-2.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
