@@ -39,7 +39,7 @@ $$|\psi\rangle = c_1\left|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\ri
 
 Crucially, there is no guarantee that the spin components
 
-$\left|\chi_{spin}^{(n)}\right\rangle$
+$\left\|\chi_{spin}^{(n)}\right\rangle$
 
 all have the same value of $S$. You may mix together singlets, triplets, ... all into the same state.
 
