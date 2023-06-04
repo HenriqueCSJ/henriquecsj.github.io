@@ -29,15 +29,15 @@ $$\begin{align}
 &= \left< \chi_\text{spin}^{(i)} \middle| \chi_\text{spin}^{(j)} \right> \left< \phi_\text{orbital}^{(i)} \middle| H' \middle| \phi_\text{orbital}^{(j)} \right> \tag{4} \\
 \end{align}$$
 
-Now, notice that the spin part of this integral, $\[ \langle \chi_\text{spin}^{(i)} | \chi_\text{spin}^{(j)} \rangle \]$, is zero unless the two spin states are the same (because spin states are orthogonal). That means that the matrix element, and hence the transition probability, between states of different spin is zero.
+Now, notice that the spin part of this integral, $\langle \chi_\text{spin}^{(i)} | \chi_\text{spin}^{(j)} \rangle$, is zero unless the two spin states are the same (because spin states are orthogonal). That means that the matrix element, and hence the transition probability, between states of different spin is zero.
 
 -------
 
 Now, when you turn on SOC, the available states no longer have well-defined $S$ and $L$. In general, they will be *linear combinations* of different $S$ and $L$:
 
-$$|\psi \rangle = c_1\left|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\right> + c_2\left|\chi_{\text{spin}}^{(2)}\phi_{\text{orbital}}^{(2)}\right> +  ​\cdots + c_n\left|\chi_{\text{spin}}^{(n)}\phi_{\text{orbital}}^{(n)}\right> + \cdots \tag{5}$$
+$$|\psi\rangle = c_1\left|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\right> + c_2\left|\chi_{\text{spin}}^{(2)}\phi_{\text{orbital}}^{(2)}\right> +  ​\cdots + c_n\left|\chi_{\text{spin}}^{(n)}\phi_{\text{orbital}}^{(n)}\right> + \cdots \tag{5}$$
 
-Crucially, there is no guarantee that the spin components $ |\chi_{\text{spin}}^{(n)}\\rangle $ all have the same value of $S$. You may mix together singlets, triplets, ... all into the same state.
+Crucially, there is no guarantee that the spin components $|\chi_{\text{spin}}^{(n)}\\rangle$ all have the same value of $S$. You may mix together singlets, triplets, ... all into the same state.
 
 When you calculate the matrix element $\langle i | H' | j \rangle$ between these states, it's therefore no longer guaranteed that it goes to zero. It's not that the spin selection rule is no longer obeyed; it's more like all the states have a little bit of different-spin-character mixed into them, so that transitions between each pair of states is no longer strictly forbidden.
 
