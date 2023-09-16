@@ -37,7 +37,7 @@ Now, when you turn on SOC, the available states no longer have well-defined $S$ 
 
 $$|\psi\rangle = c_1\left|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\right> + c_2\left|\chi_{\text{spin}}^{(2)}\phi_{\text{orbital}}^{(2)}\right> +  ​\cdots + c_n\left|\chi_{\text{spin}}^{(n)}\phi_{\text{orbital}}^{(n)}\right> + \cdots \tag{5}$$
 
-Crucially, there is no guarantee that the spin components $\left| \chi_{\text{spin}}^{(n)} \right\rangle$  all have the same value of $S$. You may mix together singlets, triplets, ... all into the same state.
+Crucially, there is no guarantee that the spin components $ \left\Vert \chi_{\text{spin}}^{(n)} \right\rangle $ all have the same value of $ S $. You may mix together singlets, triplets, ... all into the same state.
 
 Crucially, there is no guarantee that the spin components \( \left| \chi_{\text{spin}}^{(n)} \right\rangle \) all have the same value of \( S \). You may mix together singlets, triplets, ... all into the same state.
 
