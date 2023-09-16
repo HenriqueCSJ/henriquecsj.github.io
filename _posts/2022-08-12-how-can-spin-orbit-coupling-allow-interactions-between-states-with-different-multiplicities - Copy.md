@@ -29,7 +29,7 @@ $$\begin{align}
 &= \left< \chi_\text{spin}^{(i)} \middle| \chi_\text{spin}^{(j)} \right> \left< \phi_\text{orbital}^{(i)} \middle| H' \middle| \phi_\text{orbital}^{(j)} \right> \tag{4} \\
 \end{align}$$
 
-Now, notice that the spin part of this integral, $\langle \chi_\text{spin}^{(i)} \| \chi_\text{spin}^{(j)} \rangle$, is zero unless the two spin states are the same (because spin states are orthogonal). That means that the matrix element, and hence the transition probability, between states of different spin is zero.
+Now, notice that the spin part of this integral, $ \langle \chi_{\text{spin}}^{(i)} \Vert \chi_{\text{spin}}^{(j)} \rangle $, is zero unless the two spin states are the same (because spin states are orthogonal). That means that the matrix element, and hence the transition probability, between states of different spin is zero.
 
 -------
 
