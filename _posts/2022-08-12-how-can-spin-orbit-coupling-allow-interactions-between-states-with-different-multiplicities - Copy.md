@@ -39,9 +39,7 @@ $$|\psi\rangle = c_1\left|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\ri
 
 Crucially, there is no guarantee that the spin components $ \left\Vert \chi_{\text{spin}}^{(n)} \right\rangle $ all have the same value of $ S $. You may mix together singlets, triplets, ... all into the same state.
 
-Crucially, there is no guarantee that the spin components \( \left| \chi_{\text{spin}}^{(n)} \right\rangle \) all have the same value of \( S \). You may mix together singlets, triplets, ... all into the same state.
-
-When you calculate the matrix element $\langle i | H' | j \rangle$ between these states, it's therefore no longer guaranteed that it goes to zero. It's not that the spin selection rule is no longer obeyed; it's more like all the states have a little bit of different-spin-character mixed into them, so that transitions between each pair of states is no longer strictly forbidden.
+When you calculate the matrix element $\langle i \Vert H' \Vert j \rangle$ between these states, it's therefore no longer guaranteed that it goes to zero. It's not that the spin selection rule is no longer obeyed; it's more like all the states have a little bit of different-spin-character mixed into them, so that transitions between each pair of states is no longer strictly forbidden.
 
 The slightly confusing part arises because often, the SOC is a fairly weak phenomenon. That means that the extent of mixing is pretty small, or mathematically, one of the coefficients in the linear expansion $(5)$ is much greater than the others, such that
 
