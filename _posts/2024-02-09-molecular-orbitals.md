@@ -1,7 +1,7 @@
 ---
 title: Molecular orbital
 author: Henrique
-date: 2024-09-02 15:36:00 +0800
+date: 2024-02-09 15:36:00 +0800
 categories: [ORCA]
 tags: [plot, bash, hint]
 render_with_liquid: true
