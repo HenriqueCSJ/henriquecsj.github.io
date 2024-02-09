@@ -34,8 +34,8 @@ url: 'https://henriquecsj.github.io'
 github:
   username: HenriqueCSJ             # change to your github username
 
-twitter:
-  username: h_csj            # change to your twitter username
+mastodon:
+  username: mathstodon.xyz/@hcs            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,7 +44,7 @@ social:
   email: henrique.junior@ufrgs.br             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/h_csj      # change to your twitter homepage
+    - https://mathstodon.xyz/@hcs     # change to your twitter homepage
     - https://github.com/HenriqueCSJ       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
