@@ -58,7 +58,7 @@ $$
 
 Crucially, the spin parts $\lvert \chi_{\text{spin}}^{(n)}\rangle$ need not all have the same $S$. Singlet and triplet character (for example) can become mixed into a single state.
 
-When computing $\lvert i \lvert H' \lvert j \rangle$ under SOC, each state $\lverti\rangle$ and $\lvertj\rangle$ is now a mixture of spin characters. This means the previously strict selection rule (no transitions between different spins) is softened. It's not that the spin selection rule is "broken" per se, but that each eigenstate is no longer a pure spin eigenstate. Thus, what used to be "forbidden" transitions can now occur with some small probability.
+When computing $\lvert i \lvert H' \lvert j \rangle$ under SOC, each state $\lvert i \rangle$ and $\lvert j \rangle$ is now a mixture of spin characters. This means the previously strict selection rule (no transitions between different spins) is softened. It's not that the spin selection rule is "broken" per se, but that each eigenstate is no longer a pure spin eigenstate. Thus, what used to be "forbidden" transitions can now occur with some small probability.
 
 Often SOC is a weak effect. This means that, although a state might be mostly a certain spin state, it will have small admixtures of others:
 
