@@ -13,45 +13,63 @@ math: true
 
 In the *absence* of spin–orbit coupling (SOC), the available states have well-defined spin and orbital angular momentum components which can be separated. We could, for example, write the total wavefunction as a product of spin and orbital components:
 
-$$|\psi\rangle = |\chi_{\text{spin}}\phi_{\text{orbital}}\rangle \cong |\chi_{\text{spin}}\rangle \otimes |\phi_{\text{orbital}}\rangle. \tag{1}$$
+$$
+|\psi\rangle = |\chi_{\text{spin}}\phi_{\text{orbital}}\rangle \simeq |\chi_{\text{spin}}\rangle \otimes |\phi_{\text{orbital}}\rangle.
+\tag{1}
+$$
 
-Each spin part $|\chi_{\text{spin}}\rangle$ has a well-defined value of $S$, and each orbital part $|\phi_{\text{orbital}}\rangle$ has a well-defined value of $L$. So the total state $|\psi\rangle$ has well-defined values of both $S$ and $L$.
+Each spin part $|\chi_{\text{spin}}\rangle$ has a well-defined value of $S$, and each orbital part $|\phi_{\text{orbital}}\rangle$ has a well-defined value of $L$. Thus, the total state $|\psi\rangle$ has well-defined values of both $S$ and $L$.
 
-When a system is placed under some kind of perturbation $H'$, the transition probability per unit time (i.e., how likely the system is to go from state $i$ to state $j$) is proportional to
+When a system is placed under some kind of perturbation $H'$, the transition probability per unit time (i.e. how likely the system is to go from state $i$ to state $j$) is proportional to
 
-$$|\langle i | H' | j \rangle|^2. \tag{2}$$
+$$
+|\langle i | H' | j \rangle|^2.
+\tag{2}
+$$
 
-(This is part of [Fermi's golden rule](https://en.wikipedia.org/wiki/Fermi%27s_golden_rule).) For radiative transitions, the perturbation $H'$ is proportional to the position operator $\vec{r} = (x, y, z)$ (this integral is then called the [transition dipole moment](https://en.wikipedia.org/wiki/Transition_dipole_moment)). It's not important to know the exact form of this operator; the important bit is that it depends only on spatial components and is independent of spin. Thus, the matrix element in eq. (2) can be rewritten as
+(This is part of [Fermi's golden rule](https://en.wikipedia.org/wiki/Fermi%27s_golden_rule).) For radiative transitions, the perturbation $H'$ is proportional to the position operator $\vec{r} = (x,y,z)$, which is related to the [transition dipole moment](https://en.wikipedia.org/wiki/Transition_dipole_moment). The exact form of the operator is not important here. The key point is that $H'$ depends only on spatial coordinates and not on spin.
+
+Thus, the matrix element in eq. (2) can be rewritten as
 
 $$
 \begin{align}
-\langle i | H' | j \rangle &= \langle \chi_{\text{spin}}^{(i)} \phi_{\text{orbital}}^{(i)} | H' | \chi_{\text{spin}}^{(j)} \phi_{\text{orbital}}^{(j)} \rangle \tag{3} \\[6pt]
-&= \langle \chi_{\text{spin}}^{(i)} | \chi_{\text{spin}}^{(j)} \rangle \langle \phi_{\text{orbital}}^{(i)} | H' | \phi_{\text{orbital}}^{(j)} \rangle. \tag{4}
+\langle i | H' | j \rangle 
+&= \langle \chi_{\text{spin}}^{(i)}\phi_{\text{orbital}}^{(i)} | H' | \chi_{\text{spin}}^{(j)}\phi_{\text{orbital}}^{(j)} \rangle 
+\tag{3}\\[6pt]
+&= \langle \chi_{\text{spin}}^{(i)} | \chi_{\text{spin}}^{(j)} \rangle 
+\langle \phi_{\text{orbital}}^{(i)} | H' | \phi_{\text{orbital}}^{(j)} \rangle.
+\tag{4}
 \end{align}
 $$
 
-Now, notice that the spin part of this integral, $\langle \chi_{\text{spin}}^{(i)} | \chi_{\text{spin}}^{(j)} \rangle$, is zero unless the two spin states are the same (because distinct spin states are orthogonal). That means that the matrix element, and hence the transition probability, between states of different spin is zero.
+Now, notice that $\langle \chi_{\text{spin}}^{(i)} | \chi_{\text{spin}}^{(j)} \rangle = 0$ unless the spin states are the same, since orthogonal spin states yield zero overlap. Consequently, in the absence of SOC, transitions between states of different spin are strictly forbidden.
 
 -----
 
-Now, when you turn on SOC, the available states no longer have well-defined $S$ and $L$. In general, they will be *linear combinations* of different $S$ and $L$:
+Now, when you turn on SOC, the available states no longer have well-defined $S$ and $L$. In general, they can be *linear combinations* of basis states with different $S$ and $L$:
 
-$$|\psi\rangle = c_1|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\rangle + c_2|\chi_{\text{spin}}^{(2)}\phi_{\text{orbital}}^{(2)}\rangle + \cdots + c_n|\chi_{\text{spin}}^{(n)}\phi_{\text{orbital}}^{(n)}\rangle + \cdots. \tag{5}$$
+$$
+|\psi\rangle = c_1|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\rangle 
++ c_2|\chi_{\text{spin}}^{(2)}\phi_{\text{orbital}}^{(2)}\rangle 
++ \cdots 
++ c_n|\chi_{\text{spin}}^{(n)}\phi_{\text{orbital}}^{(n)}\rangle + \cdots.
+\tag{5}
+$$
 
-Crucially, there is no guarantee that the spin components $|\chi_{\text{spin}}^{(n)}\rangle$ all have the same value of $S$. You may mix together singlets, triplets, and so forth, all into the same state.
+Crucially, the spin parts $|\chi_{\text{spin}}^{(n)}\rangle$ need not all have the same $S$. Singlet and triplet character (for example) can become mixed into a single state.
 
-When you calculate the matrix element $\langle i | H' | j \rangle$ between these states, it's therefore no longer guaranteed to vanish. It's not that the spin selection rule is no longer "obeyed" in some fundamental sense; it's that each state is now a mixture of components with different spin quantum numbers. Thus, a state that is predominantly of one spin multiplicity can have a small admixture of another, making transitions between what were previously spin-forbidden states now allowed, albeit with small probability.
+When computing $\langle i | H' | j \rangle$ under SOC, each state $|i\rangle$ and $|j\rangle$ is now a mixture of spin characters. This means the previously strict selection rule (no transitions between different spins) is softened. It's not that the spin selection rule is "broken" per se, but that each eigenstate is no longer a pure spin eigenstate. Thus, what used to be "forbidden" transitions can now occur with some small probability.
 
-The slightly confusing part arises because, often, the SOC is a fairly weak phenomenon. That means that the extent of mixing is usually small, or mathematically, one of the coefficients in the linear expansion (5) is much larger than the others, such that
+Often SOC is a weak effect. This means that, although a state might be mostly a certain spin state, it will have small admixtures of others:
 
-$$|\psi\rangle \approx c_1|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\rangle + \text{(small contributions from other states)}. \tag{6}$$
+$$
+|\psi\rangle \approx c_1|\chi_{\text{spin}}^{(1)}\phi_{\text{orbital}}^{(1)}\rangle 
++ \text{(small contributions from states with different $S$)}.
+\tag{6}
+$$
 
-In this case, we can say that the quantum number $S$ is *almost* well-defined, or that it is an *almost* good quantum number; and we can label the states *as if* they had a well-defined value of $S$. This is the case with atomic term symbols, for example.
-
-However, just because those other contributions are small doesn't mean that they are zero. So, for example, a state that is *almost* $S = 1$ can have a bit of $S = 0$ character mixed in; that means that the transition between this state and another state that is predominantly $S = 0$ is not completely forbidden.
-
-This mixing is caused by SOC, and hence SOC is precisely the mechanism that allows transitions between states which nominally have different values of $S$. In fact, it's more accurate to say that $S$ is not perfectly well-defined for these states once SOC is considered.
+Such a state is said to have an *almost* well-defined $S$, making $S$ an *almost* good quantum number. We can still label the state using $S$ as if it were well-defined, but we must remember that there's a small contamination from other spin states. This small contamination allows transitions that would be strictly forbidden in the absence of SOC. Hence, SOC enables interactions (transitions) between states of different multiplicities.
 
 -----
 
-(Many quantum mechanics textbooks cover angular momentum and angular momentum coupling in detail. Typically, these are presented using $j_1$ and $j_2$ as sources of angular momentum. SOC is conceptually the same thing, just using $s$ and $l$ as labels. For a more in-depth treatment, you can consult any reputable quantum mechanics textbook.)
+For a more in-depth treatment, consult textbooks on quantum mechanics that discuss angular momentum coupling. The mathematics of combining $s$ and $l$ into $j$ is analogous to combining other angular momenta. SOC is essentially just one more example of angular momentum coupling in quantum mechanics.
