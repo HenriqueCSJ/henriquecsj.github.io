@@ -1,4 +1,3 @@
-```markdown
 ---
 title: How can Spin-Orbit Coupling allow interactions between states with different multiplicities?
 author: Henrique
@@ -56,4 +55,3 @@ This mixing is caused by SOC, and hence SOC is precisely the mechanism that allo
 -----
 
 (Many quantum mechanics textbooks cover angular momentum and angular momentum coupling in detail. Typically, these are presented using $j_1$ and $j_2$ as sources of angular momentum. SOC is conceptually the same thing, just using $s$ and $l$ as labels. For a more in-depth treatment, you can consult any reputable quantum mechanics textbook.)
-```
